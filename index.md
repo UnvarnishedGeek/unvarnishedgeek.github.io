@@ -1,37 +1,11 @@
-## Welcome to GitHub Pages
+## Welcome to The Unvarnished Geek!
 
-You can use the [editor on GitHub](https://github.com/UnvarnishedGeek/unvarnishedgeek.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+Noise. So much noise. 
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+And so much waste.
 
-### Markdown
+Creating and interacting with digital content is inevitable for everyone these days, but, as we all know, the signal-to-noise ratio of the internet has made separating the valuable content from the noise and clutter of advertising, bots, misinformation, and just plain nonsense almost impossible. The internet generates more waste than product anymore, both in digital terms and in real ones (in the form of very destructive e-waste in the very non-digital world).
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+This will be a blog for those of us who want to use digital tools to create and communicate meaninful things *without* adding to the noise and clutter, and keeping the process elegant and streamlined from our initial thoughts to worldwide deployment.
 
-```markdown
-Syntax highlighted code block
 
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/UnvarnishedGeek/unvarnishedgeek.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
