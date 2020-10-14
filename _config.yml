@@ -28,7 +28,7 @@ url: "http://unvarnishedgeek.github.io" # the base hostname & protocol for your 
 github_username:  UnvarnishedGeek
 
 # Build settings
-theme: jekyll-theme-hacker
+theme: jekyll-theme-midnight
 plugins:
   - jekyll-feed
 
