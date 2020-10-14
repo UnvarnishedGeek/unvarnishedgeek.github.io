@@ -18,6 +18,3 @@ This will be a blog for those of us who want to use digital tools to create and 
   {% endfor %}
 </ul>
 
-<ul>
-   {% include navigation.html %}
-</ul>
