@@ -1,6 +1,7 @@
 ---
 layout: default
 title: About
+theme: midnight
 ---
 
 ## About this site
