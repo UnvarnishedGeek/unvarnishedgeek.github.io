@@ -11,17 +11,4 @@ categories: jekyll update
 
 This is a test page for my new blog about making tech nifty again.
 
-
-<head>
-    <meta charset="utf-8">
-    <title>{{ page.title }}</title>
-  </head>
-  <body>
-    <nav>
-      <a href="/">Home</a>
-    </nav>
-    <h1>{{ page.title }}</h1>
-    <footer>
-      &copy; to me
-    </footer>
-  </body>
+{% include footer.html %}
