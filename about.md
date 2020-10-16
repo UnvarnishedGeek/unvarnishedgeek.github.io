@@ -2,7 +2,7 @@
 layout: default
 title: About
 theme: midnight
-permalink: http://unvarnishedgeek.github.io/about.md
+permalink: /about/
 ---
 
 ## About this site
