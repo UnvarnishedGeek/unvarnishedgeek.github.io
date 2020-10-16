@@ -11,4 +11,3 @@ categories: jekyll update
 
 This is a test page for my new blog about making tech nifty again.
 
-{% include footer.html %}
