@@ -23,8 +23,11 @@ One way to do this is to engage in a little reflection in the face of all the co
 
 There are many ways we "consumers" of computing can take back a lot of control. Open-source operating systems and software tools tend to focus on doing one thing well rather many things only adequately. They don't need to sell you anything, so they don't tend to distract. Plain-text, especially for writing and other text-intensive activities, can be liberating from propietary file formats and allow interoperability across every OS and every device. Simpler, less resource-intensive tools and platforms, such as linux, can run very well on older systems, increasing the longevity of devices so they don't become unecessary e-waste.
 
-Computing can become more mindful, calm, sane. And it should. Here's how.
+Computing can become more mindful, calm, sane. And it should.
 
+This blog is itself an example of what I mean. It's not produced using any fancy tools at all. It's hosted on Github (for free), which is a service used by many programmers and developers for tracking and versioning software projects. But paired with another tool, called [Jekyll](https://jekyllrb.com/), it also becomes an elegantly simple vehicle for hosting a blog. Everything I do for this blog is generated using the simplest of computing tools: a terminal program and a text editor. I write posts and pages using a simple set of formatting structures called [Markdown](https://daringfireball.net/projects/markdown/syntax). I create the new post, using this very simple syntax. I update the online files on github to incorporate the post, and the software simply transforms my writing into a web format, complete with a minimalist theme that concentrates on the real content--my words--without other distraction.
+
+The tech never gets in my way. It. Just. Works.
 
 
 
