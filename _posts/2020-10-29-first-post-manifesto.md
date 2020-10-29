@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Mindful Computing: A Manifesto
+title: "Mindful Computing: A Manifesto"
 theme: midnight
 ---
 
