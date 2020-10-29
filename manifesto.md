@@ -29,5 +29,7 @@ This blog is itself an example of what I mean. It's not produced using any fancy
 
 The tech never gets in my way. It. Just. Works.
 
+My hope is to help make saner, less noisy, and more elegant computing accessible to everyone.
+
 
 
