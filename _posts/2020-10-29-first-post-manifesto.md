@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title: "Mindful Computing: A Manifesto"
 theme: midnight
 ---

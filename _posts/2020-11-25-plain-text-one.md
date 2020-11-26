@@ -1,6 +1,6 @@
 ---
 title: The Elegance of Plain-Text Writing
-layout: post
+layout: default
 theme: midnight
 ---
 

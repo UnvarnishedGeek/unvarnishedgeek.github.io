@@ -55,10 +55,4 @@ google_analytics: G-FRG5DKWVBS
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
-#
-#   Enable comments
 
-emptyArray: []
-
-comments:
-  receiver: https://{{your-receiver-site}}/api/PostComment}}
