@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Quiet Synchronity For Remote Teaching
 theme: midnight
 ---
