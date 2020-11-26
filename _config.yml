@@ -32,6 +32,9 @@ theme: jekyll-theme-midnight
 plugins:
   - jekyll-feed
 
+talkyard_server_url: https://comments-for-unvarnishedgeek-github-io.talkyard.net
+talkyard_script_url: https://c1.ty-cdn.net/-/talkyard-comments.min.js
+
 
 # Google Analytics
 google_analytics: G-FRG5DKWVBS
