@@ -32,23 +32,6 @@ theme: jekyll-theme-midnight
 plugins:
   - jekyll-feed
 
-defaults:
-  -
-    scope:
-      path: ''
-      type: pages
-    values:
-      layout: page
-      author: damieng
-      commenting: open
-  -
-    scope:
-      path: '_posts'
-      type: posts
-    values:
-      layout: post
-      author: damieng
-      commenting: open
 
 # Google Analytics
 google_analytics: G-FRG5DKWVBS
