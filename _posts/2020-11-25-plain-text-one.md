@@ -2,6 +2,7 @@
 title: The Elegance of Plain-Text Writing
 layout: post
 theme: midnight
+tags: plain-text, writing, markdown
 ---
 
 

@@ -2,6 +2,7 @@
 layout: post
 title: Quiet Synchronity For Remote Teaching
 theme: midnight
+tags: teaching, online, synchronous, low-bandwidth, zoom, alternatives
 ---
 
 ## Quiet Synchronicity For Remote Teaching
