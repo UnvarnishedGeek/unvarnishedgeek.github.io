@@ -3,7 +3,7 @@
 
 ![Sometimes simpler is better](/assets/terminal.png)
 
-This will be a blog for those of us who want to use digital tools to create and communicate meaninful things *without* adding to the noise and clutter, and keeping the process elegant and streamlined from our initial thoughts to worldwide deployment.
+This will be a blog for those of us who want to use digital tools to create and communicate meaningful things *without* the noise and clutter of most modern computing, and to keep the process elegant and streamlined from our initial thoughts to worldwide deployment.
 
 ### Some topics I'll cover:
 
