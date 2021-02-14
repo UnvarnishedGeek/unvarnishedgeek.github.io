@@ -1,5 +1,5 @@
 ---
-title: Introducing Markdown: The Plain-Text Writer's Power Tool
+title: Introducing Markdown--The Plain-Text Writer's Power Tool
 layout: post
 theme: midnight
 tags: plain-text, plain, text, writing, markdown, minimalism, computer. computing
