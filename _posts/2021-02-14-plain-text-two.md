@@ -5,7 +5,7 @@ theme: midnight
 tags: plain-text, plain, text, writing, markdown, minimalism, computer. computing
 ---
 
-##Introducing Markdown, the Plain-Text Writer's Power Tool
+## Introducing Markdown: the Plain-Text Writer's Power Tool
 
 Everybody's familiar with the usual way of formatting text in a traditional word processor, but have you stopped to think about how laborious the process normally is?
 
