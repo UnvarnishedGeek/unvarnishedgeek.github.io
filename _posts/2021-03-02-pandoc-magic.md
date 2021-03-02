@@ -98,6 +98,6 @@ Do do all this, just type all the preceding commands into one line in your termi
 
 Then just press Enter. Your computer may think for a few seconds, but when a new command prompt appears, you'll be done.
 
-Finally, either use your file manager (that's "explorer" in Windows) or Word to open the new file you just created. You should see your new, fully-formatted document, which should look something like the image on the right. ![pandoc magic!](/assets/markdown.png)
+Finally, either use your file manager (that's "explorer" in Windows) or Word to open the new file you just created. You should see your new, fully-formatted document, which should look something like the image below. ![pandoc magic!](/assets/markdown.png)
 
 That's your first conversion with Pandoc! We'll cover more aspects of Pandoc in subsequent lessons, but, for now, just try creating and converting some documents according to your needs and play around.
