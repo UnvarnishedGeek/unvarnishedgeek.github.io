@@ -8,7 +8,7 @@ theme: midnight
 
 # Plain-Text Writing Lesson: Pandoc Magic
 
-###Pandoc: The Magic Wand of Sustainable Document Conversion
+### Pandoc: The Magic Wand of Sustainable Document Conversion
 
 Now that you've had some fun playing with a text editor and Markdown syntax, it's time to work a little magic on your plain-text writing.
 
