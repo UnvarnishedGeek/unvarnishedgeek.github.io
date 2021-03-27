@@ -12,7 +12,7 @@ theme: midnight
 
 Now that you've had some fun playing with a text editor and Markdown syntax, it's time to work a little magic on your plain-text writing.
 
-Think of Pandoc like a magic wand: it's a tool that takes your markdown text files and, with a few words, transmutes them into fully-formatted documents in the format of your choice (or the format required by a publisher). You can output to many different file types, including .docx (the native Word format), .odt (the native format for Openoffice and LibreOffice), .rtf (Rich Text Format, readable by many different applications), .html (the format for web pages and blogs), and even (with a few software additions) PDF. 
+Think of Pandoc like a magic wand: it's a tool that takes your markdown text files and, with a few words, transmutes them into fully-formatted documents in the style of your choice (or the format required by a publisher). You can output to many different file types, including .docx (the native Word format), .odt (the native format for Openoffice and LibreOffice), .rtf (Rich Text Format, readable by many different applications), .html (the format for web pages and blogs), and even (with a few software additions) PDF. 
 
 The one drawback of Pandoc, for the non-techy person, is that it's a *command line* tool. In other words, there's no snazzy graphical interface with pretty buttons to click. It works entirely with text commands inside a terminal window.
 
