@@ -38,7 +38,7 @@ Go ahead and install the downloaded file (the one assumption I'm making is that 
 
 ###Create a sample document
 
-Let's create a sample markdown document to work with. You can either type this in yourself or just copy it from here and paste it into Gedit (make sure each line is flush all the way to the left):
+Let's create a sample markdown document to work with. You can either type this in yourself or just copy it from here and paste it into your text editor (make sure each line is flush all the way to the left):
 
     ###Sample Markdown Document
 
