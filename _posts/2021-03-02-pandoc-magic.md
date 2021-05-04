@@ -94,11 +94,9 @@ Then it's just a matter of using some text commands to tell Pandoc which file yo
 
 Do do all this, just type all the preceding commands into one line in your terminal, like so:
 
-  pandoc PandocTest.md -f markdown -t docx -s -o PandocTest_Output.docx
+>  pandoc PandocTest.md -f markdown -t docx -s -o PandocTest_Output.docx
 
 Then just press Enter. Your computer may think for a few seconds, but when a new command prompt appears, you'll be done.
-
-<script id="asciicast-I4S3Nd1aYFePFometB29PZRJc" src="https://asciinema.org/a/I4S3Nd1aYFePFometB29PZRJc.js" async></script>
 
 Finally, either use your file manager (that's "explorer" in Windows) or Word to open the new file you just created. You should see your new, fully-formatted document, which should look something like the image below. ![pandoc magic!](/assets/markdown.png)
 
