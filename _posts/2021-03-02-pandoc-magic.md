@@ -94,7 +94,7 @@ Then it's just a matter of using some text commands to tell Pandoc which file yo
 
 Do do all this, just type all the preceding commands into one line in your terminal, like so:
 
->  pandoc PandocTest.md -f markdown -t docx -s -o PandocTest_Output.docx
+    pandoc PandocTest.md -f markdown -t docx -s -o PandocTest_Output.docx
 
 Then just press Enter. Your computer may think for a few seconds, but when a new command prompt appears, you'll be done.
 
