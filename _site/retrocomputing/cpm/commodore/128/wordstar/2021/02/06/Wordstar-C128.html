@@ -1,0 +1,222 @@
+<!doctype html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+<!-- Begin Jekyll SEO tag v2.7.1 -->
+<title>Running Wordstar for CP/M On A Commodore 128 | The Unvarnished Geek</title>
+<meta name="generator" content="Jekyll v3.9.0" />
+<meta property="og:title" content="Running Wordstar for CP/M On A Commodore 128" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Running WordStar 3.3 for CP/M On A Commodore 128D!" />
+<meta property="og:description" content="Running WordStar 3.3 for CP/M On A Commodore 128D!" />
+<link rel="canonical" href="http://localhost:4000/retrocomputing/cpm/commodore/128/wordstar/2021/02/06/Wordstar-C128.html" />
+<meta property="og:url" content="http://localhost:4000/retrocomputing/cpm/commodore/128/wordstar/2021/02/06/Wordstar-C128.html" />
+<meta property="og:site_name" content="The Unvarnished Geek" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2021-02-06T00:00:00-06:00" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Running Wordstar for CP/M On A Commodore 128" />
+<script type="application/ld+json">
+{"@type":"BlogPosting","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/retrocomputing/cpm/commodore/128/wordstar/2021/02/06/Wordstar-C128.html"},"description":"Running WordStar 3.3 for CP/M On A Commodore 128D!","headline":"Running Wordstar for CP/M On A Commodore 128","dateModified":"2021-02-06T00:00:00-06:00","datePublished":"2021-02-06T00:00:00-06:00","url":"http://localhost:4000/retrocomputing/cpm/commodore/128/wordstar/2021/02/06/Wordstar-C128.html","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+    <link rel="stylesheet" href="/assets/css/style.css?v=7fa53deb1921338deb092fb8fbf0b2add4e26aeb">
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+    <script src="/assets/js/respond.js"></script>
+    <!--[if lt IE 9]>
+      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <!--[if lt IE 8]>
+    <link rel="stylesheet" href="/assets/css/ie.css">
+    <![endif]-->
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-FRG5DKWVBS"></script>
+	<script>
+		  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-FRG5DKWVBS');
+	</script>
+
+  </head>
+  <body>
+      <div id="header">
+        <nav>
+          <li class="fork"><a href="https://github.com/UnvarnishedGeek/unvarnishedgeek.github.io">View On GitHub</a></li>
+          
+        </nav>
+      </div><!-- end header -->
+
+    <div class="wrapper">
+
+      <section>
+        <div id="title">
+          <h1>The Unvarnished Geek</h1>
+          <p>Making Tech Sane Again</p>
+          <hr>
+          <span class="credits left">Project maintained by <a href="https://github.com/UnvarnishedGeek">UnvarnishedGeek</a></span>
+          <span class="credits right">Hosted on GitHub Pages &mdash; Theme by <a href="https://twitter.com/mattgraham">mattgraham</a></span>
+        </div>
+
+        <div class="post ">
+	<h2 id="running-wordstar-33-for-cpm-on-a-commodore-128d">Running WordStar 3.3 for CP/M On A Commodore 128D!</h2>
+
+<p><img src="/assets/wordstar128.jpg" alt="Proof in the 8-bit pudding!" /></p>
+
+<p>So, no joke,  I’m composing this post on a Commodore 128D, circa 1987, using WordStar, with the 128D running in its  (little-used) CP/M mode.</p>
+
+<p>One of the ways in which I find the Commodore 128 an amazing and interesting machine is that it natively runs three separate  operating systems right from the  internal  hardware:  Commodore Basic 2.0 (i.e. Commodore 64 mode), Commodore Basic 7.0 (128  mode),  and,  thanks to a built-in additional Z80  processor, CP/M mode.  If this doesn’t seem unique to you,  imagine a modern computer that could <em>instantly</em> boot into, say, Android, MacOS, or  Windows–not  drawing  the software from  a  multi-boot hard drive, but rather from ROMs on the system board. That’s pretty  cool for 1987, not to mention 2021.</p>
+
+<p>As cool as the 128’s CP/M mode was and is, it wasn’t much used back in the day. Commodore was hoping, with its final entry into 8-bit computing, to  capture more  of the lucrative business market, and CP/M as an operating system, though in its waning days, was still one of the  most popular  OS’es  with  one of the largest libraries of  business- oriented software.  With the 128D’s more professional look (next to the standard 128) and built-in 1571 floppy drive, it was also considerably less expensive than an IBM  PC of  the  period.  Commodore must have thought CP/M a safe bet. Unfortunately it was not to be, and the CP/M mode remained little utilized by users.</p>
+
+<p>However, especially if one is interested in using a Commodore 128 for real, daily writing, getting CP/M and Wordstar up and running thereupon offers some distinct advantages in the present:</p>
+
+<ul>
+  <li>A fully-functional word processor that rivals some modern ones in many ways,
+ running natively on the 128.</li>
+  <li>Files are easy to convert to a format readable on modern  PC’s, whether Word
+or plain text format.</li>
+  <li>Takes full advantage of 80 column mode</li>
+  <li>Takes  advantage  of a lesser-used but interesting function  of the 128D</li>
+  <li>Be even nerdier than George R.R. Martin!</li>
+  <li>Naturally distraction-free.</li>
+  <li>Natural security,  since the machine mostly remains unconnected to any sources for potential hacks or attacks.</li>
+  <li>Simple and mostly intuitive.</li>
+  <li>Geared for writing, unlike most text editors.</li>
+  <li>Favored by many writers even today</li>
+  <li>Friggin’ cool nostalgia factor</li>
+  <li>An additional option for getting your words out,  to  add  to options like modern PC,  typewriter, pen and paper, coffee shop–just one of those little tricks where changing the venue can help the words come sometimes.</li>
+  <li>Addition of a monochrome monitor, especially amber, is easy on the eyes.</li>
+</ul>
+
+<h2 id="what-i-used">What I Used</h2>
+
+<p>There  can be other options for equipment and software setups  to make  this work.  I  wanted  to make it  so  that  I  was  doing everything “natively” as much as possible,  making concessions to newer tech only where absolutely necessary.</p>
+
+<h3 id="key-concept">Key Concept</h3>
+
+<p>The most important thing to realize here is that while the C128 in CP/M mode is compatible with any CP/M software, things get dicier when it comes to disk formats. In CP/M mode, the 128 will not read standard C128/64 disks. 1571 disk drives, however, are capable of reading the MFM-type CP/M disks. The trick is to download/transfer your CP/M files onto a standard Commodore 128 disk, then use an on-board utility that runs in C128 mode to copy the files from a C128 to an CP/M, MFM-formatted disk. Then one can boot into CP/M mode and use the files.</p>
+
+<h3 id="hardware">Hardware</h3>
+
+<ul>
+  <li>Commodore 128D-CR (built-in 1571 floppy disk drive)</li>
+  <li>External 1571 floppy disk drive</li>
+  <li>Zenith Data Systems amber monochrome monitor (purchased on ebay for around
+$75)</li>
+  <li>Commodore4Ever wifi modem, <a href="https://www.ebay.com/itm/Commodore4ever-Wifi-Modem-v2-3-Commodore-64-128-Plus-4-Vic-20-/333487731225">which one can purchase for a reasonable cost on ebay</a></li>
+  <li>Modern PC for downloading some archival software</li>
+  <li>Original Commodore 128 CP/M boot and system disk.</li>
+  <li>Several 5.25” floppy disks</li>
+  <li>Lots  of  patience (hopefully this guide will make the  process easier for others)</li>
+</ul>
+
+<h3 id="software">Software</h3>
+
+<ul>
+  <li>Commodore 128 system/boot disk</li>
+  <li>CGTerm,  running on a linux machine (for transferring files via the  wifi
+modem)  <a href="https://www.lemon64.com/forum/viewtopic.php?t=69018&amp;sid=dc62e4bf60af6de0019f44aa20975384">Get it here, along with some advice for installing on LInux</a></li>
+  <li>Crosslink  2.1b: program for transferring files from  Commodore to CP/M (MFM formatted disks. Downloaded via the wifi modem from the Particles BBS (particlesbbs.dyndns.org:6400)</li>
+  <li>CCGMS2020 for connecting to BBS for the above software <a href="https://csdb.dk/release/?id=191712">Get it here, or via your favorite BBS</a></li>
+  <li>Copy of Wordstar 3.3 for CP/M M-80 (be sure NOT use use an M-86 version). <a href="http://www.retroarchive.org/cpm/text/text.htm">Get it here</a></li>
+  <li>Desterm  for transferring files from 128 to PC  and  vice-versa (of course
+CCGMS will work for this as well). <a href="https://commodore.software/downloads/download/61-desterm/1145-desterm-v3-02">Get Desterm</a></li>
+</ul>
+
+<h2 id="steps">Steps</h2>
+
+<h3 id="preparation">Preparation</h3>
+
+<ol>
+  <li>Set  up  the  hardware,  including wifi  modem  according  to instructions.</li>
+  <li>Use the CP/M disk to boot 128 into CP/M mode.</li>
+  <li>Use the CP/M “Format” command to create a CP/M formatted data diskette. FORMAT–&gt;Choose a different Drive–&gt;Drive B–&gt;Commodore 128 Double-sided</li>
+  <li>Download Wordstar 3.3 from above source, unzip.</li>
+  <li>Using CGTerm + the terminal program of your choice on the 128, transfer  the  files  INSTALL.COM,   WSU.COM,   WSOVLY1.OVR,  and WSMSGS.OVR to a standard Commodore diskette.</li>
+  <li>Use  Crosslink 2.1b to copy those files from the commodore to your  CP/M formatted  disk (Crosslink is pretty intuitive, but let me know in the comments if you’d like help with this procedure).</li>
+</ol>
+
+<h3 id="installation">Installation</h3>
+
+<ol>
+  <li>Boot the 128 into CP/M mode and insert the CP/M formatted disk into the
+external 1571.</li>
+  <li>In CP/M type b: to switch to the external drive</li>
+  <li>type “install”</li>
+  <li>This  will  run  the  installer  program  for  Wordstar.  The important  thing  is  to choose the  “Lear/Siegler”  option  when prompted  to choose a terminal type.  This will ensure that  the menus, etc. display properly.</li>
+  <li>Follow the prompts for the rest of the installation process.</li>
+</ol>
+
+<h3 id="running">Running:</h3>
+
+<ol>
+  <li>Just boot into CP/M, choose the disk onto which you installed Wordstar, and type “WS”</li>
+  <li>A Wordstar 3.3 Manual can be found <a href="http://www.bitsavers.org/pdf/microPro/Wordstar_3.3/Wordstar_3.3_Reference_Manual_1983.pdf">here</a></li>
+</ol>
+
+<h3 id="transferring">Transferring</h3>
+
+<ol>
+  <li>Use Crosslink, reversing the procedure above, to transfer your Wordstar
+file back to a regular commodore diskette.  Be sure  to use “PRG ASCII” as your target file type.</li>
+  <li>Using your terminal program and CGTerm,transfer the WS file to your PC.</li>
+</ol>
+
+<p>Once  the  file  is physically on  your  PC,  there  are  several options:</p>
+
+<ul>
+  <li>View the file using the DOS version of Wordstar in DOSBox</li>
+  <li>If  you  have  Word and Windows,  you can download  a  Wordstar converter for Word from Misrosoft</li>
+  <li>If  you would like to convert your WS file into a simple  plain text file, a
+good option is [this simple perl script]</li>
+</ul>
+
+<p>Enjoy writing in 8-Bit CP/M
+bliss!</p>
+
+	
+
+
+<script>talkyardServerUrl='https://comments-for-unvarnishedgeek-github-io.talkyard.net';</script>
+<script async defer src="https://c1.ty-cdn.net/-/talkyard-comments.min.js"></script>
+<div class="talkyard-comments" data-discussion-id="" style="margin-top: 45px;">
+<noscript>Please enable Javascript to view comments.</noscript>
+<p style="margin-top: 25px; opacity: 0.9; font-size: 96%">Comments powered by
+<a href="https://www.talkyard.io">Talkyard</a>.</p>
+</div>
+
+
+</div>
+
+
+      </section>
+      <body>
+	      If you enjoy the content on this blog, please share the URL with others!
+	</body>
+    
+<body>
+    <nav>
+	    <a href="/">Home</a>
+	    <a href=/manifesto.html>Manifesto<a>
+    </nav>
+</div>
+
+    
+    
+      <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+        ga('create', 'G-FRG5DKWVBS', 'auto');
+        ga('send', 'pageview');
+      </script>
+    
+  </body>
+</html>

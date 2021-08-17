@@ -1,0 +1,214 @@
+<!doctype html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+<!-- Begin Jekyll SEO tag v2.7.1 -->
+<title>Plain-Text Writing Lesson: Pandoc Magic | The Unvarnished Geek</title>
+<meta name="generator" content="Jekyll v3.9.0" />
+<meta property="og:title" content="Plain-Text Writing Lesson: Pandoc Magic" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Plain-Text Writing Lesson: Pandoc Magic" />
+<meta property="og:description" content="Plain-Text Writing Lesson: Pandoc Magic" />
+<link rel="canonical" href="http://localhost:4000/writing/plaintext/pandoc/markdown/howto/2021/02/06/pandoc-magic.html" />
+<meta property="og:url" content="http://localhost:4000/writing/plaintext/pandoc/markdown/howto/2021/02/06/pandoc-magic.html" />
+<meta property="og:site_name" content="The Unvarnished Geek" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2021-02-06T00:00:00-06:00" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Plain-Text Writing Lesson: Pandoc Magic" />
+<script type="application/ld+json">
+{"@type":"BlogPosting","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/writing/plaintext/pandoc/markdown/howto/2021/02/06/pandoc-magic.html"},"description":"Plain-Text Writing Lesson: Pandoc Magic","headline":"Plain-Text Writing Lesson: Pandoc Magic","dateModified":"2021-02-06T00:00:00-06:00","datePublished":"2021-02-06T00:00:00-06:00","url":"http://localhost:4000/writing/plaintext/pandoc/markdown/howto/2021/02/06/pandoc-magic.html","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+    <link rel="stylesheet" href="/assets/css/style.css?v=7fa53deb1921338deb092fb8fbf0b2add4e26aeb">
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+    <script src="/assets/js/respond.js"></script>
+    <!--[if lt IE 9]>
+      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <!--[if lt IE 8]>
+    <link rel="stylesheet" href="/assets/css/ie.css">
+    <![endif]-->
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-FRG5DKWVBS"></script>
+	<script>
+		  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-FRG5DKWVBS');
+	</script>
+
+  </head>
+  <body>
+      <div id="header">
+        <nav>
+          <li class="fork"><a href="https://github.com/UnvarnishedGeek/unvarnishedgeek.github.io">View On GitHub</a></li>
+          
+        </nav>
+      </div><!-- end header -->
+
+    <div class="wrapper">
+
+      <section>
+        <div id="title">
+          <h1>The Unvarnished Geek</h1>
+          <p>Making Tech Sane Again</p>
+          <hr>
+          <span class="credits left">Project maintained by <a href="https://github.com/UnvarnishedGeek">UnvarnishedGeek</a></span>
+          <span class="credits right">Hosted on GitHub Pages &mdash; Theme by <a href="https://twitter.com/mattgraham">mattgraham</a></span>
+        </div>
+
+        <div class="post ">
+	<h1 id="plain-text-writing-lesson-pandoc-magic">Plain-Text Writing Lesson: Pandoc Magic</h1>
+
+<h3 id="pandoc-the-magic-wand-of-sustainable-document-conversion">Pandoc: The Magic Wand of Sustainable Document Conversion</h3>
+
+<p>Now that you’ve had some fun playing with a text editor and Markdown syntax, it’s time to work a little magic on your plain-text writing.</p>
+
+<p>Think of Pandoc like a magic wand: it’s a tool that takes your markdown text files and, with a few words, transmutes them into fully-formatted documents in the style of your choice (or the format required by a publisher). You can output to many different file types, including .docx (the native Word format), .odt (the native format for Openoffice and LibreOffice), .rtf (Rich Text Format, readable by many different applications), .html (the format for web pages and blogs), and even (with a few software additions) PDF.</p>
+
+<p>The one drawback of Pandoc, for the non-techy person, is that it’s a <em>command line</em> tool. In other words, there’s no snazzy graphical interface with pretty buttons to click. It works entirely with text commands inside a terminal window.</p>
+
+<p>A terminal is simply an application on your computer that allows you to interact with it via text commands rather than graphical buttons. If you’re old enough to have worked with programs in MS-DOS, you’re already familiar with a command-line interface. There are two great things about command-line tools:</p>
+
+<ul>
+  <li><em>They’re incredibly fast</em>. They tend to start instantly and work very quickly, just like your compact text editor.</li>
+  <li><em>They can be even more powerful and offer more options and functions than graphical tools</em>. Think about it this way: a graphical tool is limited, in many ways, by the amount of space it takes up on your screen: there’s only room for so many buttons. A command-line tool can have as many available functions as its creator can imagine.</li>
+</ul>
+
+<p>The drawback is the flip side of the advantages: you have to learn the text commands.</p>
+
+<p>Luckily, you can do basic conversion with Pandoc with only a few commands, so it’s pretty darned easy.</p>
+
+<p>###Getting Pandoc</p>
+
+<p>Let’s start by downloading and installing Pandoc.</p>
+
+<ul>
+  <li>Go to <a href="https://github.com/jgm/pandoc/releases">this page</a>.</li>
+  <li>Scroll down until you see two large green buttons.</li>
+  <li>If you have a Windows computer, click the one that says “pandoc-1.13.1-windows.msi.”</li>
+  <li>If you have a mac, click the one that says “pandoc-1.13.1-osx.pkg.”</li>
+</ul>
+
+<p>Go ahead and install the downloaded file (the one assumption I’m making is that you know how to install software on your OS of choice. If you need help with this, please leave a comment to that effect!).</p>
+
+<p>###Create a sample document</p>
+
+<p>Let’s create a sample markdown document to work with. You can either type this in yourself or just copy it from here and paste it into your text editor (make sure each line is flush all the way to the left):</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>###Sample Markdown Document
+
+*****
+
+**Here's a lovely bulleted list:**
+
+- With this lovely line
+- And this even lovelier line
+- Iambic lines are very nice as well.
+
+And just to show off an important function for academics, let's include a sentence that ends with an inline footnote.^[And here's the text of the note.]
+</code></pre></div></div>
+
+<p>Go ahead and paste this into a document in Gedit. When you save your file, make sure you save it with the “.md” extension (i.e. “Sample.md”). That’s how Pandoc will know it’s a markdown document. For the sake of this lesson, let’s save this document as “PandocTest.md”.</p>
+
+<p>Save the file in a convenient folder on your hard drive (usually the “My Documents” or “Documents” folder).</p>
+
+<p>###Fire up A Terminal</p>
+
+<p>This is where things get a little bit techy. But don’t worry–it’s not really all <em>that</em> techy, and ultimately pretty easy!</p>
+
+<p>Start by opening a terminal window on your computer so you can issue text commands.</p>
+
+<ul>
+  <li><strong>For MacOS:</strong> Open a Finder window and go to <em>Applications</em> and then <em>Utilities</em>; then double-click on <em>Terminal</em>. You can also click the spotlight icon in the upper right-hand corner of your screen and type “Terminal.”</li>
+  <li><strong>For Windows 7:</strong>   Click click the “Start” button, and navigate to “Accessories” and then “Command Prompt”</li>
+  <li><strong>For Windows 8:</strong> Swipe up or click on the down arrow icon at the bottom of the screen. When you’re on the Apps screen, swipe or scroll right and located the <em>Windows System</em> section heading. Then click on <strong>Command Prompt</strong>.</li>
+</ul>
+
+<p>###Work Some Magic</p>
+
+<p>Now that you’ve got a terminal open, we can type the commands we need to get Pandoc to work its magic.</p>
+
+<p>Start by making sure you’ve got Pandoc installed. To do that, just type:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>pandoc --version
+</code></pre></div></div>
+
+<p>You should see a message telling you what version of Pandoc is installed along with a lot of other information.</p>
+
+<p>Assuming that’s the case, let’s actually convert our document.</p>
+
+<p>First, change to the directory in which you saved your test document. To do this, you use the text command “cd” (for “change directory,” naturally!). So, if you saved your test file in the “My Documents” directory in Windows, type:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>cd My Documents
+</code></pre></div></div>
+
+<p>If you like, type “ls” (mac) or “dir” in Windows and you should see a list of files in the current directory. Make sure your “PandocTest.md” file is there.</p>
+
+<p>Then it’s just a matter of using some text commands to tell Pandoc which file you want to convert and what you want to convert it to. The general syntax works like this:</p>
+
+<ul>
+  <li>Start with the command that invokes the Pandoc program. Conveniently, this is just “pandoc”</li>
+  <li>Then tell pandoc which file you want to convert. In this case, our file is called “PandocTest.md”.</li>
+  <li>Then tell pandoc what format you’re converting <em>from</em>. Do this with the flag “-f” followed by the file type (“markdown” in this case)</li>
+  <li>Next, we tell what kind of file we want our final output to be. Do this with the flag “-t” followed by the file type (in our case, “docx”)</li>
+  <li>Then we’ll tell Pandoc to create a standalone file, put its output in that file, and name the output file, like so :”-s -o PandocTest_Output.docx”</li>
+</ul>
+
+<p>Do do all this, just type all the preceding commands into one line in your terminal, like so:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>pandoc PandocTest.md -f markdown -t docx -s -o PandocTest_Output.docx
+</code></pre></div></div>
+
+<p>Then just press Enter. Your computer may think for a few seconds, but when a new command prompt appears, you’ll be done.</p>
+
+<p>Finally, either use your file manager (that’s “explorer” in Windows) or Word to open the new file you just created. You should see your new, fully-formatted document, which should look something like the image below. <img src="/assets/markdown.png" alt="pandoc magic!" /></p>
+
+<p>That’s your first conversion with Pandoc! We’ll cover more aspects of Pandoc in subsequent lessons, but, for now, just try creating and converting some documents according to your needs and play around.</p>
+
+	
+
+
+<script>talkyardServerUrl='https://comments-for-unvarnishedgeek-github-io.talkyard.net';</script>
+<script async defer src="https://c1.ty-cdn.net/-/talkyard-comments.min.js"></script>
+<div class="talkyard-comments" data-discussion-id="" style="margin-top: 45px;">
+<noscript>Please enable Javascript to view comments.</noscript>
+<p style="margin-top: 25px; opacity: 0.9; font-size: 96%">Comments powered by
+<a href="https://www.talkyard.io">Talkyard</a>.</p>
+</div>
+
+
+</div>
+
+
+      </section>
+      <body>
+	      If you enjoy the content on this blog, please share the URL with others!
+	</body>
+    
+<body>
+    <nav>
+	    <a href="/">Home</a>
+	    <a href=/manifesto.html>Manifesto<a>
+    </nav>
+</div>
+
+    
+    
+      <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+        ga('create', 'G-FRG5DKWVBS', 'auto');
+        ga('send', 'pageview');
+      </script>
+    
+  </body>
+</html>

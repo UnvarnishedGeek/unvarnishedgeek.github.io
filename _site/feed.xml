@@ -1,19 +1,396 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-11-26T10:33:11-06:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">The Unvarnished Geek</title><subtitle>Making Tech Sane Again</subtitle><entry><title type="html">The Elegance of Plain-Text Writing</title><link href="http://localhost:4000/2020/11/25/plain-text-one.html" rel="alternate" type="text/html" title="The Elegance of Plain-Text Writing" /><published>2020-11-25T00:00:00-06:00</published><updated>2020-11-25T00:00:00-06:00</updated><id>http://localhost:4000/2020/11/25/plain-text-one</id><content type="html" xml:base="http://localhost:4000/2020/11/25/plain-text-one.html">&lt;h2 id=&quot;the-elegance-of-plain-text-writing&quot;&gt;The Elegance of Plain-Text Writing&lt;/h2&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2021-08-17T12:05:05-05:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">The Unvarnished Geek</title><subtitle>Making Tech Sane Again</subtitle><entry><title type="html">Introducing Markdown–The Plain-Text Writer’s Power Tool</title><link href="http://localhost:4000/2021/02/14/plain-text-two.html" rel="alternate" type="text/html" title="Introducing Markdown–The Plain-Text Writer’s Power Tool" /><published>2021-02-14T00:00:00-06:00</published><updated>2021-02-14T00:00:00-06:00</updated><id>http://localhost:4000/2021/02/14/plain-text-two</id><content type="html" xml:base="http://localhost:4000/2021/02/14/plain-text-two.html">&lt;h2 id=&quot;introducing-markdown-the-plain-text-writers-power-tool&quot;&gt;Introducing Markdown: the Plain-Text Writer’s Power Tool&lt;/h2&gt;
+
+&lt;p&gt;Everybody’s familiar with the usual way of formatting text in a traditional word processor, but have you stopped to think about how laborious the process normally is?&lt;/p&gt;
+
+&lt;p&gt;If you want to make a word italic, your hands come off the keyboard and one hand moves to the mouse. Using the mouse, you click and drag the cursor over a word (or double-click on the word) to highlight it, then move the mouse cursor up to the top of the screen to click on the “italicize” button along the toobar. To create a footnote, your hands again leave the keyboard, you move your mouse cursor up to an “insert” pull-down menu, select “footnote,” which brings you down to the bottom of your page. You type the footnote, then scroll back up to where you were originally working in your document. Not a big deal once or twice, but such operations, when repeated over and over, actually consume a lot of time and break the flow of your thinking.&lt;/p&gt;
+
+&lt;p&gt;What if there were a way to perform all those operations as you go, simply by typing normal keyboard characters? Your hands would never leave the keyboard, and the mechanics of your software wouldn’t interrupt your train of thought.&lt;/p&gt;
+
+&lt;p&gt;This is where Markdown Syntax is a godsend.&lt;/p&gt;
+
+&lt;p&gt;Markdown syntax is simply a set of textual conventions, using standard keyboard characters, that indicate various kinds of formatting you want in your final output. Here are some of the basic conventions:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;# Markdown Syntax:
+   ## Hashtags indicate headings
+   ## One for a level-one heading, two for level two, etc.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;A string of three or more asterisks, like this:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;hr /&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Indicates a horizontal rule.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;em&gt;An asterisk on either side of a word or phrase indicates italics&lt;/em&gt;
+   &lt;strong&gt;Two asterisks on either side of a word or phrase indicates boldface&lt;/strong&gt;
+   &lt;strong&gt;Three asterisks indicate both boldface and italics&lt;/strong&gt;*&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;You can use hyphens to indicate a bullet list:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;ul&gt;
+    &lt;li&gt;Like this&lt;/li&gt;
+    &lt;li&gt;And this&lt;/li&gt;
+    &lt;li&gt;And this
+      &lt;ul&gt;
+        &lt;li&gt;To create another level to your list,&lt;/li&gt;
+        &lt;li&gt;simply indent the hyphen four spaces.&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Indicate numbered lists as you’d expect, with numbers:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;ol&gt;
+    &lt;li&gt;Like this&lt;/li&gt;
+    &lt;li&gt;And this&lt;/li&gt;
+    &lt;li&gt;And this&lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;If you’d like to create a hyperlink, simply enclose the link text in brackets, followed by the link itself in parenthesis, like so:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;a href=&quot;https://unvarnishedgeek.github.io&quot;&gt;This is the link to my blog&lt;/a&gt;.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;You can indent a quotation by using a “greater than” symbol, like this&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;blockquote&gt;
+    &lt;p&gt;Putting a “greater than sign at the front of a paragraph of text will indent the whole thing as a nice block quote.&lt;/p&gt;
+  &lt;/blockquote&gt;
+&lt;/blockquote&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;There are a couple of ways of doing footnotes. We&apos;ll explore two eventually, but the first way is to enclose a caret and a &quot;name&quot; or number for the note inside square brackets, 
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Then, at the bottom of the document, you create the note itself like this:&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Here’s the magic. When you type a plain-text document using markdown syntax, it looks like this above. Once you’re done composing, however, you run your file through another piece of software that interprets your markdown and uses it to format a final document in the form of your choice, be it a word file (.docx), a PDF file (.pdf), a Libre/OpenOffice file (.odt) or a web page (.html).&lt;/p&gt;
+
+&lt;p&gt;For example, I can convert the mardown example above into html to incorporate it into this log page, and it looks like this:&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h1 id=&quot;markdown-syntax&quot;&gt;Markdown Syntax:&lt;/h1&gt;
+
+&lt;h2 id=&quot;hashtags-indicate-headings&quot;&gt;Hashtags indicate headings&lt;/h2&gt;
+
+&lt;h2 id=&quot;one-for-a-level-one-heading-two-for-level-two-etc&quot;&gt;One for a level-one heading, two for level two, etc.&lt;/h2&gt;
+
+&lt;p&gt;A string of three or more asterisks, like this:&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Indicates a horizontal rule.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;An asterisk on either side of a word or phrase indicates italics&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Two asterisks on either side of a word or phrase indicates boldface&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Three asterisks indicate both boldface and italics&lt;/strong&gt;*&lt;/p&gt;
+
+&lt;p&gt;You can use hyphens to indicate a bullet list:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Like this&lt;/li&gt;
+  &lt;li&gt;And this&lt;/li&gt;
+  &lt;li&gt;And this
+    &lt;ul&gt;
+      &lt;li&gt;To create another level to your list,&lt;/li&gt;
+      &lt;li&gt;simply indent the hyphen four spaces.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Indicate numbered lists as you’d expect, with numbers:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Like this&lt;/li&gt;
+  &lt;li&gt;And this&lt;/li&gt;
+  &lt;li&gt;And this&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;If you’d like to create a hyperlink, simply enclose the link text in brackets, followed by the link itself in parenthesis, like so:&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://unvarnishedgeek.github.io&quot;&gt;This is the link to my blog&lt;/a&gt;
+You can indent a quotation by using a “greater than” symbol, like this:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Putting a “greater than sign at the front of a paragraph of text will indent the whole thing as a nice block quote.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;There are a couple of ways of doing footnotes. We’ll explore two eventually, but the first way is to enclose a caret and a “name” or number for the note inside square brackets, like this.&lt;sup id=&quot;fnref:1&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+
+&lt;p&gt;Then, at the bottom of the document, you create the note itself like this:&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Pretty sweet, huh? The beauty of this system is that all of your basic formatting happens in the plain text format, in a way that makes all your formatting choices perfectly visible and unmistakeable, and right in line with your prose. Including the formatting, then, neither interrupts the flow of your thinking or inserts hidden code that can mess with your formatting later on. When you edit your prose, the formatting naturally moves with it, overtly, as opposed to all that messy underlying code in a regular word processor that seems to bent on destroying both your formatting and your sanity.&lt;/p&gt;
+
+&lt;p&gt;So here’s a five-minute practice assignment to get you started with using Markdown:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Fire up the text editor of your choice&lt;/li&gt;
+  &lt;li&gt;Using the above formatting as a guide, do a little of your normal daily writing (some freewriting or journaling, some notes, an email draft, etc.) using markdown syntax for formatting.&lt;/li&gt;
+  &lt;li&gt;You can find an even more comprehensive guide to Markdown syntax &lt;a href=&quot;https://help/github.com/articles/markdown-basics/&quot;&gt;here&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;That’s it for this installment! Have fun experimenting with the syntax, and note how much word processor fussiness it removes from your writing process. In the next installment, I’ll show you how to convert your markdown documents into beautifully formatted Word, LibreOffice, or PDF documents.&lt;/p&gt;
+&lt;div class=&quot;footnotes&quot; role=&quot;doc-endnotes&quot;&gt;
+  &lt;ol&gt;
+    &lt;li id=&quot;fn:1&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;Here’s our actual footnote. &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/div&gt;</content><author><name></name></author><category term="plain-text," /><category term="plain," /><category term="text," /><category term="writing," /><category term="markdown," /><category term="minimalism," /><category term="computer." /><category term="computing" /><summary type="html">Introducing Markdown: the Plain-Text Writer’s Power Tool</summary></entry><entry><title type="html">Running Wordstar for CP/M On A Commodore 128</title><link href="http://localhost:4000/retrocomputing/cpm/commodore/128/wordstar/2021/02/06/Wordstar-C128.html" rel="alternate" type="text/html" title="Running Wordstar for CP/M On A Commodore 128" /><published>2021-02-06T00:00:00-06:00</published><updated>2021-02-06T00:00:00-06:00</updated><id>http://localhost:4000/retrocomputing/cpm/commodore/128/wordstar/2021/02/06/Wordstar-C128</id><content type="html" xml:base="http://localhost:4000/retrocomputing/cpm/commodore/128/wordstar/2021/02/06/Wordstar-C128.html">&lt;h2 id=&quot;running-wordstar-33-for-cpm-on-a-commodore-128d&quot;&gt;Running WordStar 3.3 for CP/M On A Commodore 128D!&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/wordstar128.jpg&quot; alt=&quot;Proof in the 8-bit pudding!&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;So, no joke,  I’m composing this post on a Commodore 128D, circa 1987, using WordStar, with the 128D running in its  (little-used) CP/M mode.&lt;/p&gt;
+
+&lt;p&gt;One of the ways in which I find the Commodore 128 an amazing and interesting machine is that it natively runs three separate  operating systems right from the  internal  hardware:  Commodore Basic 2.0 (i.e. Commodore 64 mode), Commodore Basic 7.0 (128  mode),  and,  thanks to a built-in additional Z80  processor, CP/M mode.  If this doesn’t seem unique to you,  imagine a modern computer that could &lt;em&gt;instantly&lt;/em&gt; boot into, say, Android, MacOS, or  Windows–not  drawing  the software from  a  multi-boot hard drive, but rather from ROMs on the system board. That’s pretty  cool for 1987, not to mention 2021.&lt;/p&gt;
+
+&lt;p&gt;As cool as the 128’s CP/M mode was and is, it wasn’t much used back in the day. Commodore was hoping, with its final entry into 8-bit computing, to  capture more  of the lucrative business market, and CP/M as an operating system, though in its waning days, was still one of the  most popular  OS’es  with  one of the largest libraries of  business- oriented software.  With the 128D’s more professional look (next to the standard 128) and built-in 1571 floppy drive, it was also considerably less expensive than an IBM  PC of  the  period.  Commodore must have thought CP/M a safe bet. Unfortunately it was not to be, and the CP/M mode remained little utilized by users.&lt;/p&gt;
+
+&lt;p&gt;However, especially if one is interested in using a Commodore 128 for real, daily writing, getting CP/M and Wordstar up and running thereupon offers some distinct advantages in the present:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;A fully-functional word processor that rivals some modern ones in many ways,
+ running natively on the 128.&lt;/li&gt;
+  &lt;li&gt;Files are easy to convert to a format readable on modern  PC’s, whether Word
+or plain text format.&lt;/li&gt;
+  &lt;li&gt;Takes full advantage of 80 column mode&lt;/li&gt;
+  &lt;li&gt;Takes  advantage  of a lesser-used but interesting function  of the 128D&lt;/li&gt;
+  &lt;li&gt;Be even nerdier than George R.R. Martin!&lt;/li&gt;
+  &lt;li&gt;Naturally distraction-free.&lt;/li&gt;
+  &lt;li&gt;Natural security,  since the machine mostly remains unconnected to any sources for potential hacks or attacks.&lt;/li&gt;
+  &lt;li&gt;Simple and mostly intuitive.&lt;/li&gt;
+  &lt;li&gt;Geared for writing, unlike most text editors.&lt;/li&gt;
+  &lt;li&gt;Favored by many writers even today&lt;/li&gt;
+  &lt;li&gt;Friggin’ cool nostalgia factor&lt;/li&gt;
+  &lt;li&gt;An additional option for getting your words out,  to  add  to options like modern PC,  typewriter, pen and paper, coffee shop–just one of those little tricks where changing the venue can help the words come sometimes.&lt;/li&gt;
+  &lt;li&gt;Addition of a monochrome monitor, especially amber, is easy on the eyes.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;what-i-used&quot;&gt;What I Used&lt;/h2&gt;
+
+&lt;p&gt;There  can be other options for equipment and software setups  to make  this work.  I  wanted  to make it  so  that  I  was  doing everything “natively” as much as possible,  making concessions to newer tech only where absolutely necessary.&lt;/p&gt;
+
+&lt;h3 id=&quot;key-concept&quot;&gt;Key Concept&lt;/h3&gt;
+
+&lt;p&gt;The most important thing to realize here is that while the C128 in CP/M mode is compatible with any CP/M software, things get dicier when it comes to disk formats. In CP/M mode, the 128 will not read standard C128/64 disks. 1571 disk drives, however, are capable of reading the MFM-type CP/M disks. The trick is to download/transfer your CP/M files onto a standard Commodore 128 disk, then use an on-board utility that runs in C128 mode to copy the files from a C128 to an CP/M, MFM-formatted disk. Then one can boot into CP/M mode and use the files.&lt;/p&gt;
+
+&lt;h3 id=&quot;hardware&quot;&gt;Hardware&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Commodore 128D-CR (built-in 1571 floppy disk drive)&lt;/li&gt;
+  &lt;li&gt;External 1571 floppy disk drive&lt;/li&gt;
+  &lt;li&gt;Zenith Data Systems amber monochrome monitor (purchased on ebay for around
+$75)&lt;/li&gt;
+  &lt;li&gt;Commodore4Ever wifi modem, &lt;a href=&quot;https://www.ebay.com/itm/Commodore4ever-Wifi-Modem-v2-3-Commodore-64-128-Plus-4-Vic-20-/333487731225&quot;&gt;which one can purchase for a reasonable cost on ebay&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Modern PC for downloading some archival software&lt;/li&gt;
+  &lt;li&gt;Original Commodore 128 CP/M boot and system disk.&lt;/li&gt;
+  &lt;li&gt;Several 5.25” floppy disks&lt;/li&gt;
+  &lt;li&gt;Lots  of  patience (hopefully this guide will make the  process easier for others)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;software&quot;&gt;Software&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Commodore 128 system/boot disk&lt;/li&gt;
+  &lt;li&gt;CGTerm,  running on a linux machine (for transferring files via the  wifi
+modem)  &lt;a href=&quot;https://www.lemon64.com/forum/viewtopic.php?t=69018&amp;amp;sid=dc62e4bf60af6de0019f44aa20975384&quot;&gt;Get it here, along with some advice for installing on LInux&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Crosslink  2.1b: program for transferring files from  Commodore to CP/M (MFM formatted disks. Downloaded via the wifi modem from the Particles BBS (particlesbbs.dyndns.org:6400)&lt;/li&gt;
+  &lt;li&gt;CCGMS2020 for connecting to BBS for the above software &lt;a href=&quot;https://csdb.dk/release/?id=191712&quot;&gt;Get it here, or via your favorite BBS&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Copy of Wordstar 3.3 for CP/M M-80 (be sure NOT use use an M-86 version). &lt;a href=&quot;http://www.retroarchive.org/cpm/text/text.htm&quot;&gt;Get it here&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Desterm  for transferring files from 128 to PC  and  vice-versa (of course
+CCGMS will work for this as well). &lt;a href=&quot;https://commodore.software/downloads/download/61-desterm/1145-desterm-v3-02&quot;&gt;Get Desterm&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;steps&quot;&gt;Steps&lt;/h2&gt;
+
+&lt;h3 id=&quot;preparation&quot;&gt;Preparation&lt;/h3&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Set  up  the  hardware,  including wifi  modem  according  to instructions.&lt;/li&gt;
+  &lt;li&gt;Use the CP/M disk to boot 128 into CP/M mode.&lt;/li&gt;
+  &lt;li&gt;Use the CP/M “Format” command to create a CP/M formatted data diskette. FORMAT–&amp;gt;Choose a different Drive–&amp;gt;Drive B–&amp;gt;Commodore 128 Double-sided&lt;/li&gt;
+  &lt;li&gt;Download Wordstar 3.3 from above source, unzip.&lt;/li&gt;
+  &lt;li&gt;Using CGTerm + the terminal program of your choice on the 128, transfer  the  files  INSTALL.COM,   WSU.COM,   WSOVLY1.OVR,  and WSMSGS.OVR to a standard Commodore diskette.&lt;/li&gt;
+  &lt;li&gt;Use  Crosslink 2.1b to copy those files from the commodore to your  CP/M formatted  disk (Crosslink is pretty intuitive, but let me know in the comments if you’d like help with this procedure).&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;installation&quot;&gt;Installation&lt;/h3&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Boot the 128 into CP/M mode and insert the CP/M formatted disk into the
+external 1571.&lt;/li&gt;
+  &lt;li&gt;In CP/M type b: to switch to the external drive&lt;/li&gt;
+  &lt;li&gt;type “install”&lt;/li&gt;
+  &lt;li&gt;This  will  run  the  installer  program  for  Wordstar.  The important  thing  is  to choose the  “Lear/Siegler”  option  when prompted  to choose a terminal type.  This will ensure that  the menus, etc. display properly.&lt;/li&gt;
+  &lt;li&gt;Follow the prompts for the rest of the installation process.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;running&quot;&gt;Running:&lt;/h3&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Just boot into CP/M, choose the disk onto which you installed Wordstar, and type “WS”&lt;/li&gt;
+  &lt;li&gt;A Wordstar 3.3 Manual can be found &lt;a href=&quot;http://www.bitsavers.org/pdf/microPro/Wordstar_3.3/Wordstar_3.3_Reference_Manual_1983.pdf&quot;&gt;here&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;transferring&quot;&gt;Transferring&lt;/h3&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Use Crosslink, reversing the procedure above, to transfer your Wordstar
+file back to a regular commodore diskette.  Be sure  to use “PRG ASCII” as your target file type.&lt;/li&gt;
+  &lt;li&gt;Using your terminal program and CGTerm,transfer the WS file to your PC.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Once  the  file  is physically on  your  PC,  there  are  several options:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;View the file using the DOS version of Wordstar in DOSBox&lt;/li&gt;
+  &lt;li&gt;If  you  have  Word and Windows,  you can download  a  Wordstar converter for Word from Misrosoft&lt;/li&gt;
+  &lt;li&gt;If  you would like to convert your WS file into a simple  plain text file, a
+good option is [this simple perl script]&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Enjoy writing in 8-Bit CP/M
+bliss!&lt;/p&gt;</content><author><name></name></author><category term="retrocomputing" /><category term="CPM" /><category term="Commodore" /><category term="128" /><category term="WordStar" /><summary type="html">Running WordStar 3.3 for CP/M On A Commodore 128D!</summary></entry><entry><title type="html">Plain-Text Writing Lesson: Pandoc Magic</title><link href="http://localhost:4000/writing/plaintext/pandoc/markdown/howto/2021/02/06/pandoc-magic.html" rel="alternate" type="text/html" title="Plain-Text Writing Lesson: Pandoc Magic" /><published>2021-02-06T00:00:00-06:00</published><updated>2021-02-06T00:00:00-06:00</updated><id>http://localhost:4000/writing/plaintext/pandoc/markdown/howto/2021/02/06/pandoc-magic</id><content type="html" xml:base="http://localhost:4000/writing/plaintext/pandoc/markdown/howto/2021/02/06/pandoc-magic.html">&lt;h1 id=&quot;plain-text-writing-lesson-pandoc-magic&quot;&gt;Plain-Text Writing Lesson: Pandoc Magic&lt;/h1&gt;
+
+&lt;h3 id=&quot;pandoc-the-magic-wand-of-sustainable-document-conversion&quot;&gt;Pandoc: The Magic Wand of Sustainable Document Conversion&lt;/h3&gt;
+
+&lt;p&gt;Now that you’ve had some fun playing with a text editor and Markdown syntax, it’s time to work a little magic on your plain-text writing.&lt;/p&gt;
+
+&lt;p&gt;Think of Pandoc like a magic wand: it’s a tool that takes your markdown text files and, with a few words, transmutes them into fully-formatted documents in the style of your choice (or the format required by a publisher). You can output to many different file types, including .docx (the native Word format), .odt (the native format for Openoffice and LibreOffice), .rtf (Rich Text Format, readable by many different applications), .html (the format for web pages and blogs), and even (with a few software additions) PDF.&lt;/p&gt;
+
+&lt;p&gt;The one drawback of Pandoc, for the non-techy person, is that it’s a &lt;em&gt;command line&lt;/em&gt; tool. In other words, there’s no snazzy graphical interface with pretty buttons to click. It works entirely with text commands inside a terminal window.&lt;/p&gt;
+
+&lt;p&gt;A terminal is simply an application on your computer that allows you to interact with it via text commands rather than graphical buttons. If you’re old enough to have worked with programs in MS-DOS, you’re already familiar with a command-line interface. There are two great things about command-line tools:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;em&gt;They’re incredibly fast&lt;/em&gt;. They tend to start instantly and work very quickly, just like your compact text editor.&lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;They can be even more powerful and offer more options and functions than graphical tools&lt;/em&gt;. Think about it this way: a graphical tool is limited, in many ways, by the amount of space it takes up on your screen: there’s only room for so many buttons. A command-line tool can have as many available functions as its creator can imagine.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The drawback is the flip side of the advantages: you have to learn the text commands.&lt;/p&gt;
+
+&lt;p&gt;Luckily, you can do basic conversion with Pandoc with only a few commands, so it’s pretty darned easy.&lt;/p&gt;
+
+&lt;p&gt;###Getting Pandoc&lt;/p&gt;
+
+&lt;p&gt;Let’s start by downloading and installing Pandoc.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Go to &lt;a href=&quot;https://github.com/jgm/pandoc/releases&quot;&gt;this page&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;Scroll down until you see two large green buttons.&lt;/li&gt;
+  &lt;li&gt;If you have a Windows computer, click the one that says “pandoc-1.13.1-windows.msi.”&lt;/li&gt;
+  &lt;li&gt;If you have a mac, click the one that says “pandoc-1.13.1-osx.pkg.”&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Go ahead and install the downloaded file (the one assumption I’m making is that you know how to install software on your OS of choice. If you need help with this, please leave a comment to that effect!).&lt;/p&gt;
+
+&lt;p&gt;###Create a sample document&lt;/p&gt;
+
+&lt;p&gt;Let’s create a sample markdown document to work with. You can either type this in yourself or just copy it from here and paste it into your text editor (make sure each line is flush all the way to the left):&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;###Sample Markdown Document
+
+*****
+
+**Here&apos;s a lovely bulleted list:**
+
+- With this lovely line
+- And this even lovelier line
+- Iambic lines are very nice as well.
+
+And just to show off an important function for academics, let&apos;s include a sentence that ends with an inline footnote.^[And here&apos;s the text of the note.]
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Go ahead and paste this into a document in Gedit. When you save your file, make sure you save it with the “.md” extension (i.e. “Sample.md”). That’s how Pandoc will know it’s a markdown document. For the sake of this lesson, let’s save this document as “PandocTest.md”.&lt;/p&gt;
+
+&lt;p&gt;Save the file in a convenient folder on your hard drive (usually the “My Documents” or “Documents” folder).&lt;/p&gt;
+
+&lt;p&gt;###Fire up A Terminal&lt;/p&gt;
+
+&lt;p&gt;This is where things get a little bit techy. But don’t worry–it’s not really all &lt;em&gt;that&lt;/em&gt; techy, and ultimately pretty easy!&lt;/p&gt;
+
+&lt;p&gt;Start by opening a terminal window on your computer so you can issue text commands.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;For MacOS:&lt;/strong&gt; Open a Finder window and go to &lt;em&gt;Applications&lt;/em&gt; and then &lt;em&gt;Utilities&lt;/em&gt;; then double-click on &lt;em&gt;Terminal&lt;/em&gt;. You can also click the spotlight icon in the upper right-hand corner of your screen and type “Terminal.”&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;For Windows 7:&lt;/strong&gt;   Click click the “Start” button, and navigate to “Accessories” and then “Command Prompt”&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;For Windows 8:&lt;/strong&gt; Swipe up or click on the down arrow icon at the bottom of the screen. When you’re on the Apps screen, swipe or scroll right and located the &lt;em&gt;Windows System&lt;/em&gt; section heading. Then click on &lt;strong&gt;Command Prompt&lt;/strong&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;###Work Some Magic&lt;/p&gt;
+
+&lt;p&gt;Now that you’ve got a terminal open, we can type the commands we need to get Pandoc to work its magic.&lt;/p&gt;
+
+&lt;p&gt;Start by making sure you’ve got Pandoc installed. To do that, just type:&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;pandoc --version
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;You should see a message telling you what version of Pandoc is installed along with a lot of other information.&lt;/p&gt;
+
+&lt;p&gt;Assuming that’s the case, let’s actually convert our document.&lt;/p&gt;
+
+&lt;p&gt;First, change to the directory in which you saved your test document. To do this, you use the text command “cd” (for “change directory,” naturally!). So, if you saved your test file in the “My Documents” directory in Windows, type:&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;cd My Documents
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;If you like, type “ls” (mac) or “dir” in Windows and you should see a list of files in the current directory. Make sure your “PandocTest.md” file is there.&lt;/p&gt;
+
+&lt;p&gt;Then it’s just a matter of using some text commands to tell Pandoc which file you want to convert and what you want to convert it to. The general syntax works like this:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Start with the command that invokes the Pandoc program. Conveniently, this is just “pandoc”&lt;/li&gt;
+  &lt;li&gt;Then tell pandoc which file you want to convert. In this case, our file is called “PandocTest.md”.&lt;/li&gt;
+  &lt;li&gt;Then tell pandoc what format you’re converting &lt;em&gt;from&lt;/em&gt;. Do this with the flag “-f” followed by the file type (“markdown” in this case)&lt;/li&gt;
+  &lt;li&gt;Next, we tell what kind of file we want our final output to be. Do this with the flag “-t” followed by the file type (in our case, “docx”)&lt;/li&gt;
+  &lt;li&gt;Then we’ll tell Pandoc to create a standalone file, put its output in that file, and name the output file, like so :”-s -o PandocTest_Output.docx”&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Do do all this, just type all the preceding commands into one line in your terminal, like so:&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;pandoc PandocTest.md -f markdown -t docx -s -o PandocTest_Output.docx
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Then just press Enter. Your computer may think for a few seconds, but when a new command prompt appears, you’ll be done.&lt;/p&gt;
+
+&lt;p&gt;Finally, either use your file manager (that’s “explorer” in Windows) or Word to open the new file you just created. You should see your new, fully-formatted document, which should look something like the image below. &lt;img src=&quot;/assets/markdown.png&quot; alt=&quot;pandoc magic!&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;That’s your first conversion with Pandoc! We’ll cover more aspects of Pandoc in subsequent lessons, but, for now, just try creating and converting some documents according to your needs and play around.&lt;/p&gt;</content><author><name></name></author><category term="writing" /><category term="plaintext" /><category term="pandoc" /><category term="markdown" /><category term="howto" /><summary type="html">Plain-Text Writing Lesson: Pandoc Magic</summary></entry><entry><title type="html">The Elegance of Plain-Text Writing</title><link href="http://localhost:4000/2020/11/25/plain-text-one.html" rel="alternate" type="text/html" title="The Elegance of Plain-Text Writing" /><published>2020-11-25T00:00:00-06:00</published><updated>2020-11-25T00:00:00-06:00</updated><id>http://localhost:4000/2020/11/25/plain-text-one</id><content type="html" xml:base="http://localhost:4000/2020/11/25/plain-text-one.html">&lt;h2 id=&quot;the-elegance-of-plain-text-writing&quot;&gt;The Elegance of Plain-Text Writing&lt;/h2&gt;
 
 &lt;h3 id=&quot;why-plain-text&quot;&gt;Why Plain Text?&lt;/h3&gt;
 
 &lt;p&gt;I’ll admit it, I’m a tech nerd. Or, at least, as much of a tech nerd as one is likely to find in an English department.&lt;/p&gt;
 
-&lt;p&gt;I’m a scholar of medieval literature, by trade. I think medievalists bring a useful perspective to technology: a kind of historical awareness that allows us to see technology as more of a collection of useful functions–where novelty isn’t necessarily the only value–rather than a progressive march toward perfection. This approach allows us to ask not “what’s the newest thing?” but rather “what’s the best technology for the job?” in an awareness that the best tool for the job might potentially be a very old one.&lt;/p&gt;
+&lt;p&gt;I’m a scholar of medieval literature by trade. I think medievalists bring a useful perspective to technology: a kind of historical awareness that allows us to be “novelty agnostic,” viewing technology as more of a collection of useful functions rather than a progressive march toward perfection. This approach allows us to ask not “what’s the newest thing?” but rather “what’s the best technology for the job?” in an awareness that the best tool for the job might potentially be a very old one just as easily as the newest one.&lt;/p&gt;
 
-&lt;p&gt;One thing all we scholars in the humanities do all the time is &lt;em&gt;write,&lt;/em&gt; and taking my “medievalist mind” to the available technologies for doing that has enabled me to discover some tools for supporting my writing that are in some ways older and less “high tech” than other options, but, for the same reason, are also so much more stable, more sustainable, and so much easier to manage that they’ll make your “modern” office suite seem downright clunky by comparison.&lt;/p&gt;
+&lt;p&gt;One thing all scholars in the humanities do all the time is &lt;em&gt;write,&lt;/em&gt; and taking my “medievalist mind” to the available technologies for doing that has enabled me to discover some tools that in some ways are older and less “high tech” than other options, but, for the same reason, are also so much more stable, more sustainable, and so much easier to manage that they’ll make your “modern” office suite seem downright clunky by comparison.&lt;/p&gt;
 
 &lt;h3 id=&quot;the-elegance-of-plain-text&quot;&gt;The Elegance of Plain Text&lt;/h3&gt;
 
-&lt;p&gt;To understand how working in plain text is helpful, think about the tools you normally use to write on a computer. If you’re like most, you default to a traditional “word processor” such as Microsoft Word. But consider this: have you ever had a problem with Word where some strange formatting seems to have infiltrated your document and you can’t get rid of it, no matter what you do or what settings you change? Have you ever had a Word document behave in infuriatingly odd ways for no apparent reason? Well, there is a reason, which is that Word documents are actually &lt;em&gt;extremely&lt;/em&gt; complicated beasts. For example, a single sentence in Word
-might &lt;em&gt;appear&lt;/em&gt; to be very simple. However, underneath what you can see, there’s a huge amount of code that you don’t can’t. As an experiment for this post, I typed a single sentence in Word, and then revealed the underlying code: there was over &lt;strong&gt;nine pages&lt;/strong&gt; of code for that solitary sentence.&lt;/p&gt;
+&lt;p&gt;To understand how working in plain text is helpful, think about the tools you normally use to write on a computer. If you’re like most, you default to a traditional “word processor” such as Microsoft Word. But consider this: have you ever had a problem with Word where some strange formatting seems to have infiltrated your document and you can’t get rid of it, no matter what you do or what settings you change? Have you ever had a Word document behave in infuriatingly odd ways for no apparent reason? Well, there is a reason, which is that Word documents are actually &lt;em&gt;extremely&lt;/em&gt; complicated beasts. For example, a single sentence in Word might &lt;em&gt;appear&lt;/em&gt; to be very simple. However, underneath what you can see, there’s a huge amount of code that you don’t can’t. As an experiment for this post, I typed a single sentence in Word, and then revealed the underlying code: there was over &lt;strong&gt;nine pages&lt;/strong&gt; of code for that solitary sentence.&lt;/p&gt;
 
-&lt;p&gt;Hence one big reason Word tends to misbehave, and misbehave more the more you work with a document. As you add edits, elements such as notes and images, copy text from other sources, rearrange blocks of text–in other words, most of the things an academic does with documents all the time–the more of that code is inserted and has to interact with previous code, and the more complex it becomes. No wonder your document starts behaving as though it’s possessed by something unholy the more you manipulate it.&lt;/p&gt;
+&lt;p&gt;Hence one big reason Word tends to misbehave, and misbehave more the more you work with a document. As you add edits, elements such as images, copy text from other sources, rearrange blocks of text, add and fiddle with footnotes and endnotes–in other words, most of the things an academic does with documents all the time–the more of that code is inserted and has to interact with previous code, and the more complex it becomes. No wonder your document starts behaving as though it’s possessed by something unholy the more you manipulate it.&lt;/p&gt;
 
 &lt;p&gt;On the other hand, a plain-text file contains only the ascii characters that you type. A plain text file in which you type:&lt;/p&gt;
 
@@ -31,13 +408,13 @@ might &lt;em&gt;appear&lt;/em&gt; to be very simple. However, underneath what yo
   &lt;li&gt;&lt;strong&gt;It’s compatible with everything.&lt;/strong&gt; You can edit plain text files on any device, with any simple text editor. You can work on your writing on any computer, your tablet, or even your phone without screwing up any formatting in the process. You already have a perfectly-capable plain-text editor on your computer if you’re using any common operating system: the venerable &lt;strong&gt;Notepad&lt;/strong&gt; has come budled with Windows for decades, &lt;strong&gt;Text Edit&lt;/strong&gt; is the equivalent for Mac OS. Different Linux distributions come with different small text editors, but tools such as &lt;strong&gt;Mousepad&lt;/strong&gt; and &lt;strong&gt;Gedit&lt;/strong&gt; are common. There are also, of course, many free plain-text editors for Android and iOS only a few clicks away through your preferred app store.&lt;/li&gt;
   &lt;li&gt;&lt;strong&gt;It’s sustainable over time.&lt;/strong&gt; As mentioned above, plain text doesn’t add tons of behind-the-scenes code the more you work with a document, so you can say goodbye to Word’s bloated nonsense. It’s also true that popular file formats change over time: if you wrote documents in something like, say, WordStar years ago, those documents take a lot of doing to access these days. Plain text documents have always been, and will aways be, universally accessible.&lt;/li&gt;
   &lt;li&gt;&lt;strong&gt;You can focus on your words.&lt;/strong&gt; Word tends to be so complex, and presents you with such a dizzying array of options (most of which you don’t need unless you’re a massive law firm or insurance corporation) that the tool itself can distract from your writing. A simple text editor removes all that nonsense–it’s just you and your words.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;You have more control over formatting.&lt;/strong&gt; The basic idea behind a plain-text workflow is that you do your &lt;em&gt;composing&lt;/em&gt; with a text editor in a sustainable, unversal format, and &lt;em&gt;then,&lt;/em&gt; only when your text is ready to send somewhere–say, to a journal for publication–do you worry about formatting. We’ll cover how to make this work in later posts, but for now, imagine this: you’ve written an article as a text file. That file contains only universal formatting for everything–subheadings, footnotes, citations, etc. To format the file for different venues, you use another piece of software to convert that document into any format you like. One journal wants the document submitted as a Word document with citations in MLA style? You simply tell your conversion software that’s what you want, and, with a few keystrokes, ZAP! You’ve got a properly-formatted Word document ready to go. Another journal wants same article submitted as a PDF with footnotes using the Chicago notes-bibliography style? A few more keystrokes and &lt;em&gt;voila!&lt;/em&gt; Need to make some substantial edits after a peer review? Make those edits in the original text file and avoid all the formatting headaches your word processor always gives you.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;You have more control over formatting, especially when &lt;em&gt;changing&lt;/em&gt; styles.&lt;/strong&gt; The basic idea behind a plain-text workflow is that you do your &lt;em&gt;composing&lt;/em&gt; with a text editor in a sustainable, unversal format, and &lt;em&gt;then,&lt;/em&gt; only when your text is ready to send somewhere–say, to a journal for publication–do you worry about formatting. We’ll cover how to make this work in later posts, but for now, imagine this: you’ve written an article as a text file. That file contains only universal formatting for everything–subheadings, footnotes, citations, etc. To format the file for different venues, you use another piece of software to convert that document into any format you like. One journal wants the document submitted as a Word document with citations in MLA style? You simply tell your conversion software that’s what you want, and, with a few keystrokes, ZAP! You’ve got a properly-formatted Word document ready to go. Another journal wants same article submitted as a PDF with footnotes using the Chicago notes-bibliography style? A few more keystrokes and &lt;em&gt;voila!&lt;/em&gt; Need to make some substantial edits after a peer review? Make those edits in the original text file and avoid all the formatting headaches your word processor always gives you.&lt;/li&gt;
   &lt;li&gt;&lt;strong&gt;It’s blazingly fast.&lt;/strong&gt; Text editors are tiny pieces of software compared to word processors, so they start instantaneously, load documents almost instantly, and run like lightning even on old hardware. Nothing gets between you and your words.&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;I should mention that this entire blog post was composed in a basic plain-text editor, called &lt;strong&gt;Vim&lt;/strong&gt;, an editor that runs simply in a terminal, and has been around since the late 1980’s! These words have never seen Word, and never will!&lt;/p&gt;
 
-&lt;p&gt;Convinced? If so, stay tuned for more posts on working with plain-text writing tools.&lt;/p&gt;</content><author><name></name></author><summary type="html">The Elegance of Plain-Text Writing</summary></entry><entry><title type="html">Quiet Synchronity For Remote Teaching</title><link href="http://localhost:4000/2020/11/07/quiet-synchronicity.html" rel="alternate" type="text/html" title="Quiet Synchronity For Remote Teaching" /><published>2020-11-07T00:00:00-06:00</published><updated>2020-11-07T00:00:00-06:00</updated><id>http://localhost:4000/2020/11/07/quiet-synchronicity</id><content type="html" xml:base="http://localhost:4000/2020/11/07/quiet-synchronicity.html">&lt;h2 id=&quot;quiet-synchronicity-for-remote-teaching&quot;&gt;Quiet Synchronicity For Remote Teaching&lt;/h2&gt;
+&lt;p&gt;Convinced? If so, stay tuned for more posts on working with plain-text writing tools.&lt;/p&gt;</content><author><name></name></author><category term="plain-text," /><category term="writing," /><category term="markdown," /><category term="minimalism" /><summary type="html">The Elegance of Plain-Text Writing</summary></entry><entry><title type="html">Quiet Synchronity For Remote Teaching</title><link href="http://localhost:4000/2020/11/07/quiet-synchronicity.html" rel="alternate" type="text/html" title="Quiet Synchronity For Remote Teaching" /><published>2020-11-07T00:00:00-06:00</published><updated>2020-11-07T00:00:00-06:00</updated><id>http://localhost:4000/2020/11/07/quiet-synchronicity</id><content type="html" xml:base="http://localhost:4000/2020/11/07/quiet-synchronicity.html">&lt;h2 id=&quot;quiet-synchronicity-for-remote-teaching&quot;&gt;Quiet Synchronicity For Remote Teaching&lt;/h2&gt;
 
 &lt;p&gt;As I’m one of those engaging in a first-time-ever experiment in all-remote teaching and learning, I’ve begun to wonder about how I think about “synchronous” classes, especially since “synchronous” seems to have become, for the most part, synonymous with Zoom or other video-based modes of communication. Zoom is an excellent and necessary tool, of course. At the same time, it’s “high bandwidth” on both literal and metaphorical levels: it uses the most literal bandwidth in terms of bits per second, but also the most intellectual and emotional bandwidth. It can feel exhausting.&lt;/p&gt;
 
@@ -53,7 +430,7 @@ might &lt;em&gt;appear&lt;/em&gt; to be very simple. However, underneath what yo
   &lt;li&gt;&lt;strong&gt;Synchronous Writing&lt;/strong&gt;: I borrowed this from a writing group I belong to, where we’ll help each other get work done by simply meeting in a real-time text chat room, and then use the “pomodoro” technique (focused 20-minute bursts of concentrated work), all doing our individual work together. Something about being present with others doing this really works, and we can encourage each other, share drafting back and forth, etc. between writing sessions. This is pretty neat when I want students to work on drafting essays, for example.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;What tools, techniques, or exercises as anyone else found as potentially-effective “low bandwidth” alternatives?&lt;/p&gt;</content><author><name></name></author><summary type="html">Quiet Synchronicity For Remote Teaching</summary></entry><entry><title type="html">Mindful Computing: A Manifesto</title><link href="http://localhost:4000/2020/10/29/first-post-manifesto.html" rel="alternate" type="text/html" title="Mindful Computing: A Manifesto" /><published>2020-10-29T00:00:00-05:00</published><updated>2020-10-29T00:00:00-05:00</updated><id>http://localhost:4000/2020/10/29/first-post-manifesto</id><content type="html" xml:base="http://localhost:4000/2020/10/29/first-post-manifesto.html">&lt;h2 id=&quot;mindful-computing-a-manifesto&quot;&gt;Mindful Computing: A Manifesto&lt;/h2&gt;
+&lt;p&gt;What tools, techniques, or exercises as anyone else found as potentially-effective “low bandwidth” alternatives?&lt;/p&gt;</content><author><name></name></author><category term="teaching," /><category term="online," /><category term="synchronous," /><category term="low-bandwidth," /><category term="zoom," /><category term="alternatives" /><summary type="html">Quiet Synchronicity For Remote Teaching</summary></entry><entry><title type="html">Mindful Computing: A Manifesto</title><link href="http://localhost:4000/2020/10/29/first-post-manifesto.html" rel="alternate" type="text/html" title="Mindful Computing: A Manifesto" /><published>2020-10-29T00:00:00-05:00</published><updated>2020-10-29T00:00:00-05:00</updated><id>http://localhost:4000/2020/10/29/first-post-manifesto</id><content type="html" xml:base="http://localhost:4000/2020/10/29/first-post-manifesto.html">&lt;h2 id=&quot;mindful-computing-a-manifesto&quot;&gt;Mindful Computing: A Manifesto&lt;/h2&gt;
 
 &lt;p&gt;Noise. So much noise.&lt;/p&gt;
 

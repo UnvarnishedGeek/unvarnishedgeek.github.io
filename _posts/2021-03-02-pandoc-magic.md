@@ -25,7 +25,7 @@ The drawback is the flip side of the advantages: you have to learn the text comm
 
 Luckily, you can do basic conversion with Pandoc with only a few commands, so it's pretty darned easy.
 
-###Getting Pandoc
+### Getting Pandoc
 
 Let's start by downloading and installing Pandoc.
 
@@ -36,7 +36,7 @@ Let's start by downloading and installing Pandoc.
 
 Go ahead and install the downloaded file (the one assumption I'm making is that you know how to install software on your OS of choice. If you need help with this, please leave a comment to that effect!).
 
-###Create a sample document
+### Create a sample document
 
 Let's create a sample markdown document to work with. You can either type this in yourself or just copy it from here and paste it into your text editor (make sure each line is flush all the way to the left):
 
@@ -56,7 +56,7 @@ Go ahead and paste this into a document in Gedit. When you save your file, make 
 
 Save the file in a convenient folder on your hard drive (usually the "My Documents" or "Documents" folder).
 
-###Fire up A Terminal
+### Fire up A Terminal
 
 This is where things get a little bit techy. But don't worry--it's not really all *that* techy, and ultimately pretty easy!
 
@@ -66,7 +66,7 @@ Start by opening a terminal window on your computer so you can issue text comman
 - **For Windows 7:**   Click click the "Start" button, and navigate to "Accessories" and then "Command Prompt"
 - **For Windows 8:** Swipe up or click on the down arrow icon at the bottom of the screen. When you're on the Apps screen, swipe or scroll right and located the *Windows System* section heading. Then click on **Command Prompt**.
 
-###Work Some Magic
+### Work Some Magic
 
 Now that you've got a terminal open, we can type the commands we need to get Pandoc to work its magic.
 
