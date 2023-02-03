@@ -7,7 +7,6 @@ tags: teaching, online, synchronous, low-bandwidth, zoom, alternatives
 
 ## Quiet Synchronicity For Remote Teaching
 
-Test edit.
 
 As I’m one of those engaging in a first-time-ever experiment in all-remote teaching and learning, I’ve begun to wonder about how I think about “synchronous” classes, especially since “synchronous” seems to have become, for the most part, synonymous with Zoom or other video-based modes of communication. Zoom is an excellent and necessary tool, of course. At the same time, it’s “high bandwidth” on both literal and metaphorical levels: it uses the most literal bandwidth in terms of bits per second, but also the most intellectual and emotional bandwidth. It can feel exhausting.
 
