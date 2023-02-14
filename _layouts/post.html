@@ -6,3 +6,5 @@ layout: default
 	{{ page.content }}
 	{% include talkyard-comments.html %}
 </div>
+
+<meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
