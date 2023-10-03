@@ -13,9 +13,9 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2021-02-08-Wordstar-C128.md",
+                "file": "_posts/2023-10-03-128-terminal.md",
                 "mode": "source",
-                "source": false
+                "source": true
               }
             }
           }
@@ -64,6 +64,14 @@
               "type": "starred",
               "state": {}
             }
+          },
+          {
+            "id": "c26df9cc6449c277",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
           }
         ]
       }
@@ -85,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2021-02-08-Wordstar-C128.md",
+                "file": "_posts/2023-10-03-128-terminal.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2021-02-08-Wordstar-C128.md",
+                "file": "_posts/2023-10-03-128-terminal.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2021-02-08-Wordstar-C128.md"
+                "file": "_posts/2023-10-03-128-terminal.md"
               }
             }
           }
@@ -147,5 +155,10 @@
     }
   },
   "active": "bb61e664dae70ddb",
-  "lastOpenFiles": []
+  "lastOpenFiles": [
+    "_posts/2021-02-08-Wordstar-C128.md",
+    "_posts/2023-10-03-128-terminal.md",
+    "assets/128Terminal.jpg",
+    "assets/128Terminal.jpg.crdownload"
+  ]
 }
